@@ -1,0 +1,177 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=invalid
+ColorAmount=-0.75
+ColorEffect=1
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=
+Color=
+ColorAmount=
+ColorEffect=
+ContrastAmount=
+ContrastEffect=
+Enable=true
+IntensityAmount=
+IntensityEffect=
+
+[Colors:Button]
+BackgroundAlternate=189,195,199
+BackgroundNormal=227,226,218
+DecorationFocus=235,145,0
+DecorationHover=235,145,0
+ForegroundActive=70,69,63
+ForegroundInactive=127,140,141
+ForegroundLink=70,69,63
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,39
+ForegroundPositive=130,87,28
+ForegroundVisited=138,136,124
+
+[Colors:Complementary]
+BackgroundAlternate=35,35,35
+BackgroundNormal=49,54,59
+DecorationFocus=212,166,0
+DecorationHover=214,199,32
+ForegroundActive=254,231,174
+ForegroundInactive=175,176,179
+ForegroundLink=255,250,225
+ForegroundNegative=231,76,60
+ForegroundNeutral=253,188,75
+ForegroundNormal=239,240,241
+ForegroundPositive=250,191,103
+ForegroundVisited=220,203,177
+
+[Colors:Selection]
+BackgroundAlternate=255,250,225
+BackgroundNormal=250,191,103
+DecorationFocus=235,145,0
+DecorationHover=235,145,0
+ForegroundActive=70,69,63
+ForegroundInactive=70,69,63
+ForegroundLink=70,69,63
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=70,69,63
+ForegroundPositive=130,87,28
+ForegroundVisited=138,136,124
+
+[Colors:Tooltip]
+BackgroundAlternate=77,77,77
+BackgroundNormal=70,69,63
+DecorationFocus=235,145,0
+DecorationHover=235,145,0
+ForegroundActive=70,69,63
+ForegroundInactive=189,195,199
+ForegroundLink=70,69,63
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=130,87,28
+ForegroundVisited=138,136,124
+
+[Colors:View]
+BackgroundAlternate=239,240,241
+BackgroundNormal=252,252,252
+DecorationFocus=235,145,0
+DecorationHover=235,145,0
+ForegroundActive=70,69,63
+ForegroundInactive=127,140,141
+ForegroundLink=70,69,63
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,39
+ForegroundPositive=130,87,28
+ForegroundVisited=138,136,124
+
+[Colors:Window]
+BackgroundAlternate=235,145,0
+BackgroundNormal=225,225,223
+DecorationFocus=235,145,0
+DecorationHover=235,145,0
+ForegroundActive=70,69,63
+ForegroundInactive=127,140,141
+ForegroundLink=70,69,63
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=35,38,39
+ForegroundPositive=130,87,28
+ForegroundVisited=138,136,124
+
+[DirSelect Dialog]
+DirSelectDialog Size=640,480
+History Items[$e]=file:$HOME/Notes,file:$HOME/.config/audio-setup,file:$HOME/.config/,file:$HOME/Music,file:$HOME/Videos,file:$HOME/Projects,file:///media/emil/Data/Harder Records,file:$HOME/Pictures,file:$HOME/Notes,file:$HOME/Music,file:$HOME/Documents
+
+[General]
+ColorScheme=Default
+Name=Autumn Breeze
+XftHintStyle=hintnone
+XftSubPixel=
+dbfile=/home/emil/.mozilla/firefox/24wiew4a.default/places.sqlite
+fixed=Hack,12,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+widgetStyle=Breeze
+
+[Icons]
+Theme=Papirus
+
+[KDE]
+ColorScheme=Autumn Breeze
+ShowDeleteCommand=false
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+SingleClick=false
+contrast=4
+widgetStyle=breeze
+
+[KFileDialog Settings]
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=0
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=101
+View Style=Simple
+listViewIconSize=0
+
+[KScreen]
+ScaleFactor=1
+ScreenScaleFactors=DVI-I-0=1;DVI-I-1=1;DP-0=1;DP-1=1;DP-2=1;DP-3=1;HDMI-0=1;DP-4=1;DP-5=1;
+
+[PreviewSettings]
+MaximumRemoteSize=536870912
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
+
+[WM]
+activeBackground=70,69,63
+activeBlend=255,255,255
+activeFont=Noto Sans,11,-1,5,50,0,0,0,0,0,Regular
+activeForeground=239,240,241
+inactiveBackground=140,138,126
+inactiveBlend=70,69,63
+inactiveForeground=189,195,199

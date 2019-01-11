@@ -1,0 +1,103 @@
+Effect:
+Disabled effect color: 56, 56, 56
+Inactive effect color: 112, 111, 110
+
+[Colors:Button]
+BackgroundAlternate=224,223,222
+BackgroundNormal=239,240,241
+DecorationFocus=30,146,255
+DecorationHover=61,174,230
+ForegroundActive=246,116,0
+ForegroundInactive=175,176,179
+ForegroundLink=As buttin decoratonhover
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=49,54,59
+ForegroundPositive=17,209,22
+ForegroundVisited=As buttin decoratonhover
+
+[Colors:Selection]
+BackgroundAlternate=48,138,183
+BackgroundNormal=As buttin decoratonhover
+DecorationFocus=As button DecorationFocus
+DecorationHover=As buttin decoratonhover
+ForegroundActive=As buttin foregroundactive
+ForegroundInactive=146,204,230
+ForegroundLink=252,252,252
+ForegroundNegative=As buttin foregroundnegative
+ForegroundNeutral=As buttin foregroundneutral
+ForegroundNormal=As selection foregroundlink
+ForegroundPositive=As buttin foregroundpositive
+ForegroundVisited=As selection foregroundlink
+
+[Colors:Tooltip]
+BackgroundAlternate=196,224,255
+BackgroundNormal=As button BackgroundNormal
+DecorationFocus=As buttin decoratonfocus
+DecorationHover=As buttin decoratonhover
+ForegroundActive=As buttin foregroundactive
+ForegroundInactive=As buttin foregroundinactive
+ForegroundNegative=As buttin foregroundnegative
+ForegroundNeutral=As buttin foregroundneutral
+ForegroundNormal=As buttin foregroundnormal
+ForegroundPositive=As buttin foregroundpositive
+ForegroundVisited=As buttin decoratonhover
+
+[Colors:View]
+BackgroundAlternate=248,247,246
+BackgroundNormal=As selection foregroundlink
+DecorationFocus=As buttin decoratonfocus
+DecorationHover=As buttin decoratonhover
+ForegroundActive=As buttin foregroundactive
+ForegroundInactive=As buttin foregroundinactive
+ForegroundLink=As buttin decoratonhover
+ForegroundNegative=As buttin foregroundnegative
+ForegroundNeutral=As buttin foregroundneutral
+ForegroundNormal=As buttin foregroundnormal
+ForegroundPositive=As buttin foregroundpositive
+ForegroundVisited=As buttin decoratonhover
+
+[Colors:Window]
+BackgroundAlternate=218,217,216
+BackgroundNormal=as button BackgroundNormal
+DecorationFocus=As buttin decoratonfocus
+DecorationHover=As buttin decoratonhover
+ForegroundActive=As buttin foregroundactive
+ForegroundInactive=As buttin foregroundinactive
+ForegroundLink=As buttin decoratonhover
+ForegroundNegative=As buttin foregroundnegative
+ForegroundNeutral=As buttin foregroundneutral
+ForegroundNormal=As buttin foregroundnormal
+ForegroundPositive=As buttin foregroundpositive
+ForegroundVisited=As buttin decoratonhover
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=As buttin foregroundnormal
+DecorationFocus=As buttin decoratonfocus
+DecorationHover=As buttin decoratonhover
+ForegroundActive=As buttin foregroundactive
+ForegroundInactive=As buttin foregroundinactive
+ForegroundLink=As buttin decoratonhover
+ForegroundNegative=As buttin foregroundnegative
+ForegroundNeutral=As buttin foregroundneutral
+ForegroundNormal=As button BackgroundNormal
+ForegroundPositive=As buttin foregroundpositive
+ForegroundVisited=As buttin decoratonhover
+
+
+[General]
+ColorScheme=Breeze
+Name=Breeze
+shadeSortColumn=true
+
+[KDE]
+contrast=7
+
+[WM]
+activeBackground=As buttin decoratonhover
+activeBlend=As selection foregroundlink
+activeForeground=As selection foregroundlink
+inactiveBackground=123,124,126
+inactiveBlend=as WM  inactiveBackground
+inactiveForeground=As selection foregroundlink

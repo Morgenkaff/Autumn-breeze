@@ -1,0 +1,65 @@
+# Autumn Breeze GRUB theme
+#
+# 2018, Emil Harder < mail@morgenkaffe.dk >
+#
+# Some rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
+#
+
+title-text: "Welcome!"
+title-font: "Unifont Regular 21"
+title-color: "#facb84"
+desktop-image: "bg.png"
+desktop-color: "#46453f"
+
+#terminal-box: "box_terminal_*.png"
+terminal-font: "Unifont Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
++ boot_menu {
+  left = 60%
+  top = 25%
+  width = 40%
+  height = 60%
+  menu_pixmap_style = "boot_menu_*.png"
+  
+  item_font = "Unifont Regular 16"
+  item_color = "#eb9100"
+  selected_item_color = "#fffae1"
+  selected_item_font = "Unifont Bold 16"
+  item_height = 40
+  item_spacing = 0
+  item_padding = 0
+  #item_pixmap_style = "box_*.png"
+  selected_item_pixmap_style = "box_selected_*.png"
+}
+
+
++ label {
+  left = 16
+  top = 100%-36
+  width = 100%-16
+  align = "left"
+  color = "#fffae1"
+  font = "Unifont Regular 16"
+  text = @KEYMAP_MIDDLE@
+}
+
+
++ progress_bar {
+  id = "__timeout__"
+  left = 0
+  top = 100%-16
+  height = 16
+  width = 100%
+  font = "Unifont Regular 16"
+  text_color = "#fffae1"
+  text = "Dette er en text"
+  bar_style = "progress_bar_c.png"
+  highlight_style = "progress_bar_hl_c.png"
+}
+

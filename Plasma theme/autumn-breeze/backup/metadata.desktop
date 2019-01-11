@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=emils-kde
+Comment=Theme done in the Breeze style for emils-kde
+
+X-KDE-PluginInfo-Author=Emil
+X-KDE-PluginInfo-Email=mail@emilharder.dk
+X-KDE-PluginInfo-Name=emils-kde
+X-KDE-PluginInfo-Version=0.2
+X-KDE-PluginInfo-Website=http://emilharder.dk
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+# 
