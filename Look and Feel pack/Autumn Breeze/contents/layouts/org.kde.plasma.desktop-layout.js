@@ -71,12 +71,12 @@ var layout = {
                             "DialogWidth": "720"
                         },
                         "/Configuration/Configuration/General": {
-                            "favoritesPortedToKAstats": "true",
+                            "favoritesPortedToKAstats": "false",
                             "showRecentApps": "false",
                             "showRecentDocs": "false"
                         },
                         "/Configuration/General": {
-                            "favoritesPortedToKAstats": "true",
+                            "favoritesPortedToKAstats": "false",
                             "showRecentApps": "false",
                             "showRecentDocs": "false"
                         },

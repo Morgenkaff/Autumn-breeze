@@ -1,0 +1,103 @@
+Effect:
+Disabled effect color: 56, 56, 56
+Inactive effect color: 112, 111, 110
+
+[Colors:Button]
+BackgroundAlternate=224,223,222
+BackgroundNormal=239,240,241
+DecorationFocus=30,146,255
+DecorationHover=61,174,230
+ForegroundActive=246,116,0
+ForegroundInactive=175,176,179
+ForegroundLink=As button decoratonhover
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=49,54,59
+ForegroundPositive=17,209,22
+ForegroundVisited=As button decoratonhover
+
+[Colors:Selection]
+BackgroundAlternate=48,138,183
+BackgroundNormal=As button decoratonhover
+DecorationFocus=As button DecorationFocus
+DecorationHover=As button decoratonhover
+ForegroundActive=As button foregroundactive
+ForegroundInactive=146,204,230
+ForegroundLink=252,252,252
+ForegroundNegative=As button foregroundnegative
+ForegroundNeutral=As button foregroundneutral
+ForegroundNormal=As selection foregroundlink
+ForegroundPositive=As button foregroundpositive
+ForegroundVisited=As selection foregroundlink
+
+[Colors:Tooltip]
+BackgroundAlternate=196,224,255
+BackgroundNormal=As button BackgroundNormal
+DecorationFocus=As button decoratonfocus
+DecorationHover=As button decoratonhover
+ForegroundActive=As button foregroundactive
+ForegroundInactive=As button foregroundinactive
+ForegroundNegative=As button foregroundnegative
+ForegroundNeutral=As button foregroundneutral
+ForegroundNormal=As button foregroundnormal
+ForegroundPositive=As button foregroundpositive
+ForegroundVisited=As button decoratonhover
+
+[Colors:View]
+BackgroundAlternate=248,247,246
+BackgroundNormal=As selection foregroundlink
+DecorationFocus=As button decoratonfocus
+DecorationHover=As button decoratonhover
+ForegroundActive=As button foregroundactive
+ForegroundInactive=As button foregroundinactive
+ForegroundLink=As button decoratonhover
+ForegroundNegative=As button foregroundnegative
+ForegroundNeutral=As button foregroundneutral
+ForegroundNormal=As button foregroundnormal
+ForegroundPositive=As button foregroundpositive
+ForegroundVisited=As button decoratonhover
+
+[Colors:Window]
+BackgroundAlternate=218,217,216
+BackgroundNormal=as button BackgroundNormal
+DecorationFocus=As button decoratonfocus
+DecorationHover=As button decoratonhover
+ForegroundActive=As button foregroundactive
+ForegroundInactive=As button foregroundinactive
+ForegroundLink=As button decoratonhover
+ForegroundNegative=As button foregroundnegative
+ForegroundNeutral=As button foregroundneutral
+ForegroundNormal=As button foregroundnormal
+ForegroundPositive=As button foregroundpositive
+ForegroundVisited=As button decoratonhover
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=As button foregroundnormal
+DecorationFocus=As button decoratonfocus
+DecorationHover=As button decoratonhover
+ForegroundActive=As button foregroundactive
+ForegroundInactive=As button foregroundinactive
+ForegroundLink=As button decoratonhover
+ForegroundNegative=As button foregroundnegative
+ForegroundNeutral=As button foregroundneutral
+ForegroundNormal=As button BackgroundNormal
+ForegroundPositive=As button foregroundpositive
+ForegroundVisited=As button decoratonhover
+
+
+[General]
+ColorScheme=Breeze
+Name=Breeze
+shadeSortColumn=true
+
+[KDE]
+contrast=7
+
+[WM]
+activeBackground=As button decoratonhover
+activeBlend=As selection foregroundlink
+activeForeground=As selection foregroundlink
+inactiveBackground=123,124,126
+inactiveBlend=as WM  inactiveBackground
+inactiveForeground=As selection foregroundlink

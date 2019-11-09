@@ -1,0 +1,26 @@
+Colour pallette (new):
+
+
+
+
+Standard-colours (old):
+
+Grundfarve1 (windue-bg/base): E1E1D8 (Lys grå 3)
+Grundfarve2 (Button-bg/light): FFFFFB (Hvid 3)
+Grundfarve3 (dark): C1C1B1  (Lys grå 2)
+
+Accent1 (base): eb9100  (Orange 5)
+Accent2 (light): FFBF57 (Orange 4)
+Accent3 (dark): C47900  (Orange 3)
+
+Highlight1 (base): facb84   (Orange 2)
+Highlight2 (light): FFEDD2  (Beige 2)
+Highlight3 (dark): D4A052   (Orange 1)
+
+Shadow1 (Panel-bg/base): 232323 (Mørk grå 2)
+Shadow2 (light): 616161 (Lys grå 1)
+Shadow3 (dark): 030202  (Mørk grå 1)
+
+Text1 (base): fffae1    (Hvid 2)
+Text2 (light): FFFDF4   (Hvid 1)
+Text3 (dark): BAAF79    (Beige 1)
