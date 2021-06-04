@@ -4,23 +4,6 @@ var layout = {
     "desktops": [
         {
             "applets": [
-                {
-                    "config": {
-                        "/": {
-                            "PreloadWeight": "56"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        }
-                    },
-                    "geometry.height": 15,
-                    "geometry.width": 15,
-                    "geometry.x": 84,
-                    "geometry.y": 0,
-                    "plugin": "org.kde.plasma.analogclock",
-                    "title": "Analogue Clock"
-                }
             ],
             "config": {
                 "/": {
@@ -30,21 +13,76 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/ConfigDialog": {
-                    "DialogHeight": "540",
-                    "DialogWidth": "720"
+                    "DialogHeight": "480",
+                    "DialogWidth": "640"
                 },
                 "/Configuration": {
                     "PreloadWeight": "0"
                 },
                 "/General": {
                     "ToolBoxButtonState": "topright",
-                    "ToolBoxButtonX": "1890",
-                    "pressToMoveHelp": "false",
-                    "showToolbox": "true",
+                    "ToolBoxButtonX": "1892",
+                    "showToolbox": "false",
                     "url": "activities:/current/"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///home/emil/.local/share/wallpapers/16713-autumn-lake_1600x1200.jpg"
+                    "FillMode": "1",
+                    "Image": "file:///home/emil/Pictures/Wallpapers/emlba_rain_cropped.jpg"
+                },
+                "/Wallpaper/org.kde.slideshow/General": {
+                    "Blur": "true",
+                    "SlideInterval": "7200",
+                    "SlidePaths": "/home/emil/Pictures/Wallpapers/8bit DayNight"
+                }
+            },
+            "wallpaperPlugin": "org.kde.image"
+        },
+        {
+            "applets": [
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "0",
+                    "immutability": "1",
+                    "lastScreen": "1",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/ConfigDialog": {
+                    "DialogHeight": "480",
+                    "DialogWidth": "640"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "0"
+                },
+                "/General": {
+                    "ToolBoxButtonState": "topright",
+                    "ToolBoxButtonX": "772",
+                    "iconSize": "5",
+                    "showToolbox": "false",
+                    "sortMode": "-1"
+                },
+                "/Wallpaper/org.kde.image/General": {
+                    "Image": "file:///home/emil/Pictures/Wallpapers/linux_terminal_wallpaper.png"
+                },
+                "/Wallpaper/org.kde.slideshow/General": {
+                    "SlideInterval": "7200",
+                    "SlidePaths": "/home/emil/Pictures/Wallpapers/8bit DayNight"
+                }
+            },
+            "wallpaperPlugin": "org.kde.image"
+        },
+        {
+            "applets": [
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "0",
+                    "immutability": "1",
+                    "lastScreen": "2",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "0"
                 }
             },
             "wallpaperPlugin": "org.kde.image"
@@ -60,31 +98,12 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "PreloadWeight": "100",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
                             "PreloadWeight": "100"
                         },
-                        "/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "favoritesPortedToKAstats": "false",
-                            "showRecentApps": "false",
-                            "showRecentDocs": "false"
-                        },
                         "/Configuration/General": {
-                            "favoritesPortedToKAstats": "false",
+                            "favoritesPortedToKAstats": "true",
                             "showRecentApps": "false",
                             "showRecentDocs": "false"
-                        },
-                        "/Configuration/Shortcuts": {
-                            "global": "Alt+F1"
-                        },
-                        "/Shortcuts": {
-                            "global": "Alt+F1"
                         }
                     },
                     "plugin": "org.kde.plasma.kicker"
@@ -95,26 +114,15 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
                             "PreloadWeight": "0"
                         },
-                        "/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/Configuration/Configuration/General": {
-                            "iconSize": "medium",
-                            "launchers": "[c7ca2fd6-86f8-4fc7-aaa1-efac942c601a]\napplications:firefox.desktop,[c7ca2fd6-86f8-4fc7-aaa1-efac942c601a]\napplications:franz.desktop",
-                            "maxStripes": "1",
-                            "wheelEnabled": "false"
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
                         },
                         "/Configuration/General": {
-                            "iconSize": "small",
-                            "launchers": "[c7ca2fd6-86f8-4fc7-aaa1-efac942c601a]\napplications:firefox.desktop\\,[c7ca2fd6-86f8-4fc7-aaa1-efac942c601a]\napplications:franz.desktop",
                             "maxStripes": "1",
-                            "wheelEnabled": "false"
+                            "showOnlyCurrentActivity": "false"
                         }
                     },
                     "plugin": "org.kde.plasma.icontasks"
@@ -125,11 +133,7 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "PreloadWeight": "60",
-                            "immutability": "1"
-                        },
-                        "/Configuration/Configuration": {
-                            "PreloadWeight": "96"
+                            "PreloadWeight": "59"
                         }
                     },
                     "plugin": "org.kde.plasma.systemtray"
@@ -140,28 +144,18 @@ var layout = {
                             "immutability": "1"
                         },
                         "/Configuration": {
-                            "immutability": "1"
+                            "PreloadWeight": "0"
                         },
                         "/Configuration/Appearance": {
-                            "dateFormat": "isoDate",
-                            "displayTimezoneAsCode": "false",
+                            "customDateFormat": "dd/MM",
+                            "dateFormat": "custom",
                             "showDate": "true",
                             "showWeekNumbers": "true",
                             "use24hFormat": "2"
                         },
-                        "/Configuration/Configuration": {
-                            "PreloadWeight": "24"
-                        },
-                        "/Configuration/Configuration/Appearance": {
-                            "dateFormat": "isoDate",
-                            "displayTimezoneAsCode": "false",
-                            "showDate": "true",
-                            "showWeekNumbers": "true",
-                            "use24hFormat": "2"
-                        },
-                        "/Configuration/Configuration/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
                         }
                     },
                     "plugin": "org.kde.plasma.digitalclock"
@@ -182,11 +176,141 @@ var layout = {
                     "PreloadWeight": "0"
                 }
             },
-            "height": 2,
+            "height": 1.6666666666666667,
             "hiding": "normal",
             "location": "bottom",
             "maximumLength": 106.66666666666667,
             "minimumLength": 106.66666666666667,
+            "offset": 0
+        },
+        {
+            "applets": [
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "PreloadWeight": "0"
+                        },
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
+                        },
+                        "/Configuration/General": {
+                            "maxStripes": "1",
+                            "showOnlyCurrentDesktop": "true",
+                            "showOnlyCurrentScreen": "true",
+                            "wheelEnabled": "false"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.icontasks"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "PreloadWeight": "0"
+                        },
+                        "/Configuration/Appearance": {
+                            "customDateFormat": "dd/MM",
+                            "dateFormat": "custom",
+                            "showDate": "true",
+                            "showWeekNumbers": "true",
+                            "use24hFormat": "2"
+                        },
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.digitalclock"
+                }
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "2",
+                    "immutability": "1",
+                    "lastScreen": "1",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/ConfigDialog": {
+                    "DialogHeight": "82",
+                    "DialogWidth": "800"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "0"
+                }
+            },
+            "height": 4,
+            "location": "bottom"
+        },
+        {
+            "alignment": "left",
+            "applets": [
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "PreloadWeight": "0"
+                        },
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
+                        },
+                        "/Configuration/General": {
+                            "maxStripes": "1",
+                            "showOnlyCurrentScreen": "true"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.icontasks"
+                },
+                {
+                    "config": {
+                        "/": {
+                            "immutability": "1"
+                        },
+                        "/Configuration": {
+                            "PreloadWeight": "0"
+                        },
+                        "/Configuration/Appearance": {
+                            "customDateFormat": "dd/MM",
+                            "dateFormat": "custom",
+                            "showDate": "true",
+                            "use24hFormat": "2"
+                        },
+                        "/Configuration/ConfigDialog": {
+                            "DialogHeight": "480",
+                            "DialogWidth": "640"
+                        }
+                    },
+                    "plugin": "org.kde.plasma.digitalclock"
+                }
+            ],
+            "config": {
+                "/": {
+                    "formfactor": "2",
+                    "immutability": "1",
+                    "lastScreen": "2",
+                    "wallpaperplugin": "org.kde.image"
+                },
+                "/ConfigDialog": {
+                    "DialogHeight": "79",
+                    "DialogWidth": "800"
+                },
+                "/Configuration": {
+                    "PreloadWeight": "0"
+                }
+            },
+            "height": 1.6666666666666667,
+            "hiding": "normal",
+            "location": "bottom",
+            "maximumLength": 44.44444444444444,
+            "minimumLength": 44.44444444444444,
             "offset": 0
         }
     ],

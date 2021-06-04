@@ -2,7 +2,7 @@
 cursorTheme=breeze_cursors
 
 [kdeglobals][General]
-ColorScheme=Default
+ColorScheme=Autumn-Breeze
 
 [kdeglobals][KDE]
 widgetStyle=breeze
@@ -15,7 +15,7 @@ LayoutName=thumbnails
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breeze
-theme=__aurorae__svg__QuasiDeepin
+theme=Autumn-Breeze
 
 [plasmarc][Theme]
 name=autumn-breeze
