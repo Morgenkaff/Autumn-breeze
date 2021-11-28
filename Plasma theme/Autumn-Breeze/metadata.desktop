@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Autumn-Breeze
+Comment=A autumn flavoured theme based on/inspired by Breeze
+
+X-KDE-PluginInfo-Author=Emil Harder
+X-KDE-PluginInfo-Email=kontakt@morgenkaff.dk
+X-KDE-PluginInfo-Name=Autumn-Breeze
+X-KDE-PluginInfo-Version=0.5
+X-KDE-PluginInfo-Website=http://morgenkaff.dk
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[ContrastEffect]
+enabled=true
+contrast=1.0
+intensity=1.0
+saturation=1.0
