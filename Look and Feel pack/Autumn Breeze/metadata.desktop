@@ -9,5 +9,4 @@ X-KDE-PluginInfo-Name=Autumn-Breeze
 X-KDE-PluginInfo-Version=0.5
 X-KDE-PluginInfo-Website=https://github.com/Morgenkaff/Autumn-breeze
 X-KDE-ServiceTypes=Plasma/LookAndFeel
-X-KPackage-Dependencie=kns://colorschemes.knsrc/api.kde-look.org/1272857,kns://plasma-themes.knsrc/api.kde-look.org/1272854,kns://icons.knsrc/api.kde-look.org/1166289
-
+X-KPackage-Dependencie=kns://colorschemes.knsrc/api.kde-look.org/1272857,kns://plasma-themes.knsrc/api.kde-look.org/1272854,kns://icons.knsrc/api.kde-look.org/1166289,kns://sddmtheme.knsrc/api.kde-look.org/

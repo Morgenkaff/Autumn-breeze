@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=Autumn Breeze
+Description=A autumn flavoured theme.
+Author=Emil Harder
+Copyright=Copyright (C) 2021 - Emil Harder
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/Morgenkaff/Autumn-breeze
+Screenshot=Preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Email=mail@morgenkaff.dk
+Theme-Id=Autumn-Breeze
+Theme-API=2.11
