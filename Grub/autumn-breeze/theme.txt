@@ -1,9 +1,21 @@
 # Autumn Breeze GRUB theme
 #
-# 2018, Emil Harder < mail@morgenkaffe.dk >
+# 2021, Emil Harder < mail@morgenkaff.dk >
 #
-# Some rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
+# This file is part of Autumn Breeze themes.
 #
+# Autumn Breeze is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Autumn Breeze is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Autumn Breeze.  If not, see <https://www.gnu.org/licenses/>.
 
 title-text: "Welcome!"
 title-font: "Unifont Regular 21"

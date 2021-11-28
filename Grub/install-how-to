@@ -1,7 +1,0 @@
-Extract the theme to /boot/grub/themes/
-
-Edit /etc/default/grub file. 
-Find the line starting with "#GRUB_THEME"
-Change it to "GRUB_THEME=/boot/grub/themes/[THEME_FOLDER]/[theme.txt]"
-
-Run sudo update-grub
